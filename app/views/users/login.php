@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col-md-6 mx-auto">
             <div class="card card-body mt-5">
+                <?= flash('register_success') ?>
                 <h2>Login</h2>
                 <p>Please fill int your credentials to log in</p>
                 <form action="<?= URLROOT; ?>/users/login" method="post">
