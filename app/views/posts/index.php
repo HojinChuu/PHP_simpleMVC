@@ -1,4 +1,5 @@
 <?php require APPROOT . '/views/default/header.php'; ?>
+    <?php flash('post_message') ?>
     <div class="row mb-4">
         <div class="col-md-6">
             <h1>Community</h1>
