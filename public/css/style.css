@@ -1,0 +1,13 @@
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.post_card_container:hover {
+    background-color: rgb(240, 240, 240);
+    transition: ease 0.5s;
+}
